@@ -135,12 +135,14 @@
     margin: 0 auto;
 }
 
-.btn-carousel {
-    width: 100px;
+/* .btn-carousel {
+    width: 150px;
+    height: 35px;
     margin-top: 10px;
     background-color: #c99bd4;
     color: black;
-}
+    border-radius: 25%;
+} */
 
 .btn-carousel:hover {
     background-color: rgb(164, 100, 157);
@@ -179,7 +181,7 @@
 }
 
 .footer a:hover {
-    color: #C799A6;
+    color: black;
     font-weight: bold;
 }
 
@@ -188,6 +190,9 @@
     display: flex;
     justify-content: center;
 }
+
+
+
 
 @media (max-width: 850px) {
     .header {
