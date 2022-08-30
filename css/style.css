@@ -130,34 +130,30 @@
 }
 
 .carousel {
-    /* background-color: aqua; */
     width: 50vw;
     margin: 0 auto;
 }
 
-.carousel-caption h5{
-    font-size: 30px;
-    font-weight: bold;
+.carousel-caption{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.carousel-caption p{
+.carousel-caption h5{
     font-size: 25px;
     font-weight: bold;
 }
 
-.carousel-caption:hover{
-    background-color: hsla(308, 15%, 59%, 0.596);
-    /* color: black; */
+.carousel-caption p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0px;
 }
 
-/* .btn-carousel {
-    width: 150px;
-    height: 35px;
-    margin-top: 10px;
-    background-color: #c99bd4;
-    color: black;
-    border-radius: 25%;
-} */
+.carousel-caption:hover{
+    background-color: hsla(308, 15%, 59%, 0.596);
+}
+
 
 .btn-carousel:hover {
     background-color: rgb(164, 100, 157);
@@ -181,7 +177,7 @@
     display: flex;
     width: 450px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
     justify-content: center;
 }
 
@@ -195,28 +191,38 @@
 
 }
 
-.footer a:hover {
+.footer ul a:hover{
     color: black;
-    font-weight: bold;
 }
+
+
 
 .footer p {
     color: white;
     display: flex;
+    font-size: 20px;
+    font-weight: bold;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .fa-whatsapp{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .fa-twitter{
-    font-size: 25px;
+    font-size: 35px;
+}
+
+.fa-instagram{
+    font-size: 35px;
 }
 
 .fa-square-facebook{
-    font-size: 25px;
+    font-size: 35px;
 }
+
+
 
 
 @media (max-width: 850px) {
