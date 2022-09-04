@@ -65,16 +65,49 @@
     padding-top: 55px;
 }
 
-.grid-container img {
+.opciones{
+    padding-bottom: 20px;
+    max-width: 50vh;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.titulo-2{
+    font-size: 30px;
+}
+
+/* .grid-container img {
     width: 200px;
     padding: 15px;
-}
+} */
 
 .main-contacto {
     min-height: 100vh;
     background-color: #c1e3ed;
     text-align: center;
     padding-top: 55px;
+}
+
+.main-contacto select{
+    background-color: rgb(189, 184, 184);
+}
+
+.form-contact{
+    margin: 40px;
+    
+}
+
+.form-contact input{
+    background-color: rgb(189, 184, 184);
+}
+
+.form-contact select option{
+    background-color: rgb(189, 184, 184);
+}
+
+.consulta{
+    background-color: rgb(189, 184, 184);
 }
 
 .main-sucursales {
@@ -84,11 +117,18 @@
     padding-top: 55px;
 }
 
+.main-sucursales input{
+    background-color: rgb(189, 184, 184);
+}
 
+.main-sucursales select{
+    background-color: rgb(189, 184, 184);
+}
 
 .main-sucursales h2 {
     padding-top: 25px;
     padding-bottom: 10px;
+    padding-top: 55px;
 }
 
 
@@ -100,10 +140,34 @@
     padding-top: 55px;
 }
 
+.tarifas-promo{
+    padding-top: 45px;
+}
+
 .titulo {
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+.tarifas p{
+    padding-bottom: 20px;
+    max-width: 50vh;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* .titulo-2{
+    padding-top: 15px;
+} */
+
+.promociones p{
+    padding-bottom: 20px;
+    max-width: 50vh;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .grid-container {
@@ -117,6 +181,14 @@
 /* cards coches*/
 .row {
     justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(185, 185, 185);
 }
 
 .color-boton {
@@ -137,7 +209,7 @@
 .carousel-inner {
     width: 50vw;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -180,9 +252,9 @@
     margin-bottom: 2rem;
 }
 
-.form-contact{
+/* .form-contact{
     border: 5px;
-}
+} */
 
 
 
